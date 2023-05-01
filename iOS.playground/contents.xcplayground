@@ -4,5 +4,6 @@
         <page name='Swap any two values without using secondary variable'/>
         <page name='Write function that can take any number of argument and returns theis sum'/>
         <page name='ZQuestion1'/>
+        <page name='ZQuestion2'/>
     </pages>
 </playground>
