@@ -3,11 +3,13 @@
     <pages>
         <page name='inout'/>
         <page name='SingleTon'/>
+        <page name='Shortest way to find sum of items in array'/>
         <page name='Swap any two values without using secondary variable'/>
         <page name='Validation with property wrapper'/>
         <page name='Write function that can take any number of argument and returns theis sum'/>
         <page name='ZQuestion1'/>
         <page name='ZQuestion2'/>
         <page name='ZQuestion3'/>
+        <page name='ZZMS1'/>
     </pages>
 </playground>
