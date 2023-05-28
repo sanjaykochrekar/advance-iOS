@@ -49,6 +49,7 @@ class TipicalTableViewCell {
         // Delegate method is called here
         delegate?.knowButtonTappedInCell()
     }
+    
 }
 
 

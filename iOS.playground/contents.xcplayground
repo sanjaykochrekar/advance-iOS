@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
     <pages>
+        <page name='Delegate'/>
         <page name='inout'/>
         <page name='SingleTon'/>
         <page name='Shortest way to find sum of items in array'/>
@@ -11,5 +12,9 @@
         <page name='ZQuestion2'/>
         <page name='ZQuestion3'/>
         <page name='ZZMS1'/>
+        <page name='Tower of Hanoi'/>
+        <page name='Palindrom in swift'/>
+        <page name='Arrange Even number at left and odd number at right'/>
+        <page name='Untitled Page'/>
     </pages>
 </playground>
