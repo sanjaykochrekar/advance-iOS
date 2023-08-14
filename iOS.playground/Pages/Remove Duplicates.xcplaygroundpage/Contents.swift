@@ -6,10 +6,10 @@ extension Array where Element: Hashable {
     func removeDuplicate() -> Array {
         var buffer: [Element] = []
         var added: Set<Element> = Set()
-        for ele in self {
-            if !added.contains(ele){
-                buffer.append(ele)
-                added.insert(ele)
+        for element in self {
+            if !added.contains(element){
+                buffer.append(element)
+                added.insert(element)
             }
         }
         return buffer

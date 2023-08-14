@@ -21,7 +21,7 @@ struct IntegralSize {
 }
 
 //Comment init to run this line
-let size = IntegralSize(width: 50, height: 50)
+//let size = IntegralSize(width: 50, height: 50)
 
 let sizeOfBoard = IntegralSize(CGSize(width: 50, height: 50))
 

@@ -15,6 +15,10 @@
         <page name='Tower of Hanoi'/>
         <page name='Palindrom in swift'/>
         <page name='Arrange Even number at left and odd number at right'/>
+        <page name='Remove Duplicates'/>
+        <page name='stride'/>
         <page name='Untitled Page'/>
+        <page name='AsynAwait'/>
+        <page name='AlgoBinarySearch'/>
     </pages>
 </playground>

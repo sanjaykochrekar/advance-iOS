@@ -41,4 +41,4 @@ for index in 2..<array.count {
 dump(secondGretestIndex)
 dump(array[secondGretestIndex])
 
-Que
+
