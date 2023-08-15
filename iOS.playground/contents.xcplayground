@@ -20,5 +20,6 @@
         <page name='Untitled Page'/>
         <page name='AsynAwait'/>
         <page name='AlgoBinarySearch'/>
+        <page name='AlgoBubbleSort'/>
     </pages>
 </playground>
