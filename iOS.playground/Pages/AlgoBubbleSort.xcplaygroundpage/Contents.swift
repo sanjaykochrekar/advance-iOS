@@ -4,9 +4,8 @@ extension Array where Element: Comparable {
         for i in 0...self.count - 1 {
             for j in (i..<self.count - 1).reversed() {
                 if self[j] > self[j + 1] {
-                    let temp = self[j]
-                    self[j] = self[j + 1]
-                    self[j + 1] = temp
+                    //Swaping using tuples
+                    (self[j], self[j + 1]) = (self[j + 1], self[j])
                 }
             }
         }
