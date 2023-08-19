@@ -62,3 +62,28 @@ func traceFrequency<T: Comparable>(_ array: [T], _ element: T, _ index: Int) -> 
 
 getFrequency([1, 1, 2, 3, 5, 6, 9, 9, 9], 9)
 
+// simple solution in swift
+
+let array = [1, 1, 2, 3, 5, 6, 9, 9, 9, 9]
+
+let firstIndex = array.firstIndex(of: 9)//{ $0 == 9}
+let lastIndex = array.lastIndex(of: 9)//{ $0 == 9}
+
+if let firstIndex, let lastIndex {
+    print(lastIndex - firstIndex + 1)
+}
+
+extension Array where Element: Comparable {
+    func occurence(of value: Element) -> Int {
+        let firstIndex = self.firstIndex(of: value)
+        let lastIndex = self.lastIndex(of: value)
+
+        if let firstIndex, let lastIndex {
+            return lastIndex - firstIndex + 1
+        }
+        
+        return 0
+    }
+}
+
+print([1, 1, 2, 3, 5, 6, 9, 9, 9, 9].occurence(of: 1))
